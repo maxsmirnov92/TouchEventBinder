@@ -1,0 +1,74 @@
+{
+  "103": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 210,
+      "y": 1360
+    }
+  },
+  "104": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 530,
+      "y": 1360
+    }
+  },
+  "105": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 870,
+      "y": 1360
+    }
+  },
+  "100": {
+    "keyEventType": "PRESSING",
+    "interval": 10,
+    "touchPosition": {
+      "x": 210,
+      "y": 1510
+    }
+  },
+  "101": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 530,
+      "y": 1510
+    }
+  },
+  "102": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 870,
+      "y": 1510
+    }
+  },
+  "97": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 210,
+      "y": 1673
+    }
+  },
+  "98": {
+    "keyEventType": "PRESSING",
+    "interval": 10,
+    "touchPosition": {
+      "x": 530,
+      "y": 1673
+    }
+  },
+  "99": {
+    "keyEventType": "PRESSING",
+    "interval": 100,
+    "touchPosition": {
+      "x": 870,
+      "y": 1673
+    }
+  }
+}

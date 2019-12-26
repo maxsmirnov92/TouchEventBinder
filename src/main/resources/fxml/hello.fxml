@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import org.tbee.javafx.scene.layout.fxml.MigPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+<BorderPane fx:id="rootPane" fx:controller="net.maxsmr.toucheventbinder.ui.MainController"
+            styleClass="main-panel"
+            xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <ScrollPane fx:id="contentScrollPane">
+            <VBox fx:id="buttonsInfoBox"
+                  maxWidth="Infinity"
+                  alignment="TOP_CENTER">
+                <padding><Insets  bottom="25"/></padding>
+                <children/>
+            </VBox>
+        </ScrollPane>
+    </center>
+</BorderPane>

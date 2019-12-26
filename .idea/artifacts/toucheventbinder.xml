@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="toucheventbinder">
+    <output-path>$PROJECT_DIR$/out/artifacts/toucheventbinder</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="net.maxsmr.toucheventbinder.MainApp" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="TouchEventBinder" />
+        <option name="vendor" value="mx_s_org" />
+        <option name="version" value="0.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="toucheventbinder.jar">
+        <element id="module-output" name="toucheventbinder" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="taskutils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/taskutils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
