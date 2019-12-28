@@ -116,7 +116,6 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <release>11</release>
-                    <!--                    <release>${java.version}</release>-->
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -152,12 +151,6 @@
             <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>net.maxsmr</groupId>-->
-        <!--            <artifactId>tasksutils</artifactId>-->
-        <!--            <version>1.0.7.4</version>-->
-        <!--        </dependency>-->
-
         <!-- MigLayout -->
         <dependency>
             <groupId>com.miglayout</groupId>

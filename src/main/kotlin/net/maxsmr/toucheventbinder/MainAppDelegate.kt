@@ -19,6 +19,7 @@ import net.maxsmr.commonutils.logger.holder.BaseLoggerHolder
 import net.maxsmr.toucheventbinder.keyadapter.trigger.AdbKeyActionTrigger
 import net.maxsmr.toucheventbinder.keyadapter.KeyBinder
 import net.maxsmr.toucheventbinder.keyadapter.KeyEventListener
+import net.maxsmr.toucheventbinder.util.FileUtils
 import net.maxsmr.toucheventbinder.util.TranslationsUtil
 
 object MainAppDelegate {
@@ -87,8 +88,10 @@ object MainAppDelegate {
             val fileChooser = FileChooser()
             fileChooser.title = "Open key binder config File"
             keyBinder.currentConfigFile?.let { currentFile ->
-                fileChooser.initialDirectory = currentFile.parentFile
-                fileChooser.initialFileName = currentFile.name
+                if (FileUtils.isFileExists(currentFile)) {
+                    fileChooser.initialDirectory = currentFile.parentFile
+                    fileChooser.initialFileName = currentFile.name
+                }
             }
             fileChooser.initialDirectory
             fileChooser.extensionFilters.addAll(
